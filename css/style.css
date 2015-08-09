@@ -47,15 +47,14 @@
 
 .main {
   width: 80rem;
-  height: 40rem;
+  height: 45.938rem;
   margin: 0 auto;
   padding: 0 7rem;
   box-sizing: border-box;
   background-image: url('../img/background.jpeg');
-  background-position: center bottom;
+  background-position: 0 bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 45.938rem;
 }
 
 .main h1,h2 {
@@ -94,3 +93,66 @@
   background-color: #d04b1f;
   cursor: pointer;
  }
+
+ .services {
+  width: 80rem;
+  height: 35rem;
+  margin-left: 10rem;
+  }
+
+.devices {      
+    width: 25%;
+    height: 10rem;
+    display: inline-block;
+}
+
+.device {
+float: right;
+}
+
+.refill {
+  float:left;
+  margin-left: 2rem;
+}
+
+.coffee {
+  margin-right: 6rem;
+  float: right;
+}
+
+.services h2 {
+  margin-left: -18rem;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 2.8rem;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+}
+
+.device_text {      
+    width: 25%;
+    height: 5rem;
+    display: inline-block;
+    margin:0;
+    padding:0;
+}
+
+.services p {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  margin: 0;
+  padding:0;
+}
+
+p.internet {
+  margin-left: 10.5rem;
+}
+
+p.pay {
+  margin-right: 10rem;
+}
