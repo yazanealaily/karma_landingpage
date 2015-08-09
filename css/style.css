@@ -4,17 +4,14 @@
 
 .content {
   width: 60rem;
-  height: 4.375rem;
+  height: 3rem;
   margin: 0 auto;
-  padding: 0 6rem;
+  padding: 0 7rem;
   box-sizing: border-box;
-  border: solid 1px black;
-  
 }
 
 .logo {
-  float: left;
-  margin-top: 1rem;
+  margin-top: -0.5rem;
   width: 1.6rem;
   height: 2.4rem;
 }
@@ -22,7 +19,7 @@
 .content li {
   display: inline;    
   float: right;
-  margin-left: 2rem;
+  margin-left: 1.6rem;
   list-style-type: none;
   font-family: 'Roboto', sans-serif; 
   font-size: 16px; 
@@ -48,3 +45,52 @@
 
 }
 
+.main {
+  width: 80rem;
+  height: 40rem;
+  margin: 0 auto;
+  padding: 0 7rem;
+  box-sizing: border-box;
+  background-image: url('../img/background.jpeg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45.938rem;
+}
+
+.main h1,h2 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+}
+
+.main h1 {
+  padding-top: 12rem;
+  font-size: 3rem;
+  margin:0;
+}
+
+.main h2 {
+  margin-top: 1rem;
+}
+
+.main button {
+  background-color: #f15a29;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+  margin-left: 28rem;
+  margin-top: 0.5rem;
+  height: 3.5rem;
+  width: 10rem;
+  border-radius: 0.3rem;
+  border: none;
+ }
+
+ .main button:hover {
+  background-color: #d04b1f;
+  cursor: pointer;
+ }
