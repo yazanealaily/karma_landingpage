@@ -1,5 +1,8 @@
 .top-navigation{
   background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index:9999;
 }
 
 .content {
@@ -96,8 +99,9 @@
 
  .services {
   width: 80rem;
-  height: 35rem;
+  height: 28rem;
   margin-left: 10rem;
+  padding:0;
   }
 
 .devices {      
@@ -130,12 +134,13 @@ float: right;
   text-align: center;
 }
 
-.device_text {      
+.services .device_text {      
     width: 25%;
     height: 5rem;
     display: inline-block;
-    margin:0;
+    vertical-align: top;
     padding:0;
+    margin:0;
 }
 
 .services p {
@@ -155,4 +160,44 @@ p.internet {
 
 p.pay {
   margin-right: 10rem;
+}
+
+footer {
+  width: 40rem;
+  height: 10rem;
+  margin: -3rem auto;
+  padding: 0 35rem;
+  border-top: 0.1rem solid lightgrey;
+}
+
+footer h4 {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  -webkit-font-smoothing: antialiased;
+  margin-left: 2rem;
+}
+
+.copyrights {
+  font-weight: 300;
+  color: grey;
+  margin-left: 0.5rem;
+}
+
+.social {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    border: 0.07rem solid lightgrey;
+    border-radius: 1.5rem;
+}
+
+.social img {
+  width: 1rem;
+  height: 1rem;
+  margin-left: 0.75rem;
+  margin-top: 0.65rem;
 }
